@@ -1,0 +1,223 @@
+const NETWORK_NODES: QuantumNode[] = [
+  // North America
+  {
+    id: 1,
+    name: 'Chattanooga Hub',
+    latitude: 35.0456,
+    longitude: -85.2672,
+    status: '🟢 Active',
+    capacity: 250,
+    region: 'North America'
+  },
+  {
+    id: 2,
+    name: 'Oak Ridge Node',
+    latitude: 35.9181,
+    longitude: -84.2679,
+    status: '🟢 Active',
+    capacity: 180,
+    region: 'North America'
+  },
+  {
+    id: 3,
+    name: 'Atlanta Center',
+    latitude: 33.7490,
+    longitude: -84.3880,
+    status: '🟢 Active',
+    capacity: 300,
+    region: 'North America'
+  },
+  {
+    id: 4,
+    name: 'Washington Node',
+    latitude: 38.9072,
+    longitude: -77.0369,
+    status: '🟡 Connecting',
+    capacity: 120,
+    region: 'North America'
+  },
+  {
+    id: 5,
+    name: 'Boston Labs',
+    latitude: 42.3601,
+    longitude: -71.0589,
+    status: '🟢 Active',
+    capacity: 220,
+    region: 'North America'
+  },
+  {
+    id: 6,
+    name: 'Toronto Quantum Center',
+    latitude: 43.6629,
+    longitude: -79.3957,
+    status: '🟢 Active',
+    capacity: 190,
+    region: 'North America'
+  },
+  {
+    id: 7,
+    name: 'San Francisco Node',
+    latitude: 37.7749,
+    longitude: -122.4194,
+    status: '🟢 Active',
+    capacity: 280,
+    region: 'North America'
+  },
+  {
+    id: 8,
+    name: 'Los Angeles Terminal',
+    latitude: 34.0522,
+    longitude: -118.2437,
+    status: '🟢 Active',
+    capacity: 260,
+    region: 'North America'
+  },
+  // Europe
+  {
+    id: 9,
+    name: 'London Hub',
+    latitude: 51.5074,
+    longitude: -0.1278,
+    status: '🟢 Active',
+    capacity: 310,
+    region: 'Europe'
+  },
+  {
+    id: 10,
+    name: 'Berlin Facility',
+    latitude: 52.5200,
+    longitude: 13.4050,
+    status: '🟢 Active',
+    capacity: 240,
+    region: 'Europe'
+  },
+  {
+    id: 11,
+    name: 'Paris Research Lab',
+    latitude: 48.8566,
+    longitude: 2.3522,
+    status: '🟢 Active',
+    capacity: 270,
+    region: 'Europe'
+  },
+  {
+    id: 12,
+    name: 'Amsterdam Center',
+    latitude: 52.3676,
+    longitude: 4.9041,
+    status: '🟡 Connecting',
+    capacity: 150,
+    region: 'Europe'
+  },
+  {
+    id: 13,
+    name: 'Stockholm Node',
+    latitude: 59.3293,
+    longitude: 18.0686,
+    status: '🟢 Active',
+    capacity: 200,
+    region: 'Europe'
+  },
+  {
+    id: 14,
+    name: 'Geneva Hub',
+    latitude: 46.2044,
+    longitude: 6.1432,
+    status: '🟢 Active',
+    capacity: 230,
+    region: 'Europe'
+  },
+  // Asia
+  {
+    id: 15,
+    name: 'Tokyo Quantum Center',
+    latitude: 35.6762,
+    longitude: 139.6503,
+    status: '🟢 Active',
+    capacity: 320,
+    region: 'Asia'
+  },
+  {
+    id: 16,
+    name: 'Singapore Node',
+    latitude: 1.3521,
+    longitude: 103.8198,
+    status: '🟢 Active',
+    capacity: 290,
+    region: 'Asia'
+  },
+  {
+    id: 17,
+    name: 'Shanghai Facility',
+    latitude: 31.2304,
+    longitude: 121.4737,
+    status: '🟢 Active',
+    capacity: 300,
+    region: 'Asia'
+  },
+  {
+    id: 18,
+    name: 'Hong Kong Hub',
+    latitude: 22.3193,
+    longitude: 114.1694,
+    status: '🟡 Connecting',
+    capacity: 170,
+    region: 'Asia'
+  },
+  {
+    id: 19,
+    name: 'Mumbai Terminal',
+    latitude: 19.0760,
+    longitude: 72.8777,
+    status: '🟢 Active',
+    capacity: 210,
+    region: 'Asia'
+  },
+  {
+    id: 20,
+    name: 'Seoul Research Institute',
+    latitude: 37.5665,
+    longitude: 126.9780,
+    status: '🟢 Active',
+    capacity: 250,
+    region: 'Asia'
+  },
+  // Australia
+  {
+    id: 21,
+    name: 'Sydney Center',
+    latitude: -33.8688,
+    longitude: 151.2093,
+    status: '🟢 Active',
+    capacity: 220,
+    region: 'Australia'
+  },
+  {
+    id: 22,
+    name: 'Melbourne Node',
+    latitude: -37.8136,
+    longitude: 144.9631,
+    status: '🟡 Connecting',
+    capacity: 160,
+    region: 'Australia'
+  },
+  // South America
+  {
+    id: 23,
+    name: 'São Paulo Hub',
+    latitude: -23.5505,
+    longitude: -46.6333,
+    status: '🟢 Active',
+    capacity: 200,
+    region: 'South America'
+  },
+  {
+    id: 24,
+    name: 'Buenos Aires Node',
+    latitude: -34.6037,
+    longitude: -58.3816,
+    status: '🟡 Connecting',
+    capacity: 140,
+    region: 'South America'
+  },
+];
